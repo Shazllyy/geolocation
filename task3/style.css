@@ -1,0 +1,87 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+h1{
+	color: #888;
+	text-align: center;
+	font-family: 'Kenia', cursive;
+
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+	background-color: #222;
+}
+.main-container {
+	display: flex;
+	flex-direction: column;
+	width: 70vw;
+	justify-content: space-between;
+background-color:#222 ;
+	margin: 50px auto;
+	border-radius: 1em;
+	padding: 2rem;
+}
+
+#btns {
+	min-height: 1rem;
+	padding: 0.5rem;
+	border-radius: 1rem;
+	text-align: center;
+	display: flex;
+	justify-content: space-around;
+	background-color: #222;
+}
+
+button {
+	height: 40px;
+	border: none;
+	padding: 0.5rem 1rem;
+	border-radius: 0.5rem;
+	cursor: pointer;
+	font-family: 'Kenia', cursive;
+}
+
+#mymap {
+    height: 550;
+	padding: 0 1rem;
+	margin-top: 2rem;
+	min-height: 60vh;
+	border: 3px solid rgb(206, 213, 67);
+	background-color: #444;
+	border-radius: 2rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+
+#info {
+	width: 60%;
+	margin: 0.5em auto;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	font-family: 'Kenia', 'cursive';
+
+}
+#info > span {
+	margin: 0.5rem;
+	width: 100%;
+	text-align: center;
+	font-family: 'Kenia';
+
+}
+#info > span:nth-child(odd) {
+	font-weight: bold;
+	font-size: 1.5rem;
+	background-color: #888;
+	color: black;
+}
+#info > span:nth-child(even) {
+	font-weight: bold;
+	font-size: 1.5rem;
+	background-color: #222;
+	color: rgb(158, 255, 1);
+}
